@@ -1,0 +1,9 @@
+{
+    "Import debugger": {
+        "prefix": "pdb",
+        "body": [
+            "import pdb; pdb.set_trace()"
+        ],
+        "description": "Imports pdb in the current line"
+    }
+}
