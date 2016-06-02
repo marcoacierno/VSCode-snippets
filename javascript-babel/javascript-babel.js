@@ -3,14 +3,13 @@
         "prefix": "rc",
         "body": [
             "import React, {",
-            "   Component,",
+            "\tComponent,",
             "} from 'react';",
-            "",
-            "",
+            "\n\n",
             "export default class $1 extends Component {",
-            "   render() {",
-            "       return <div>Hello</div>;",
-            "   }",
+            "\trender() {",
+            "\t\treturn <div>Hello</div>;",
+            "\t}",
             "}"
         ],
         "description": "React class boilerplate"
