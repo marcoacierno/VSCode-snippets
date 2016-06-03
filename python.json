@@ -5,5 +5,12 @@
             "import pdb; pdb.set_trace()"
         ],
         "description": "Imports pdb in the current line"
+    },
+    "Assert response status code": {
+        "prefix": "ars",
+        "body": [
+            "assert response.status_code == status.${1:HTTP_200_OK}"
+        ],
+        "description": "Asserts that the status code of response is"
     }
 }
