@@ -13,5 +13,12 @@
             "}"
         ],
         "description": "React class boilerplate"
+    },
+    "Import": {
+        "prefix": "imp",
+        "body": [
+            "import ${1:name} from '../${1:name}/';\n"
+        ],
+        "description": "Imports a module"
     }
 }
