@@ -4,8 +4,9 @@
         "body": [
             "import React, {",
             "\tComponent,",
+            "\tPropTypes,",
             "} from 'react';",
-            "\n\n",
+            "\n",
             "export default class $1 extends Component {",
             "\trender() {",
             "\t\treturn <div>Hello</div>;",
