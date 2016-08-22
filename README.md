@@ -1,5 +1,10 @@
 My snippets for Visual Studio code.
 
+How to use:
+
+- `git clone git@github.com:marcoacierno/VSCode-snippets.git .` in `~/Library/Application Support/Code - Insiders/User/snippets`
+- You're done
+
 # Python
 
 - `pdb`: Imports pdb and sets a breakpoint
